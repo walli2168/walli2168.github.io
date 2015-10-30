@@ -1,5 +1,5 @@
 body {
-	background-color: white;
+	background-color: rgb(255, 235, 222);
 	color: black;
 	font-family: helvetica;
 	text-align: center;
@@ -12,22 +12,30 @@ nav {
 	text-align: center;
 	font: helvetica;
 	padding: 0px 10px 0px 10px;
-	background-color: rgba(172, 197, 232, .5);
-	border-color: rgba(172, 197, 232, .5);
+	font-family: "Slabo 27px", serif;
+	font-size: 40px;
+	color: ;
+}
+p {
+	  color: black;
 }
 .container {
 	width: 33%;
-	display: inline-block;
+	float: left;
 	margin: auto;
-	background-color: rgba(255, 206, 185, .5);
-	font: "Slabo 27px", serif;
+	font-family: "Slabo 27px", serif;
+	background: white;
+  	background: linear-gradient(bottom, rgba(255, 205, 239, .5), rgba(255, 255, 255, .6));
+  	background: -webkit-linear-gradient(bottom, rgba(255, 205, 239, .5), rgba(255, 255, 255, .6));;
+  	background: -moz-linear-gradient(bottom, rgba(255, 205, 239, .5), rgba(255, 255, 255, .6));;
 }
 #featured {
-	padding: -10px 0 0 0;
+	background-color: rgba(255, 255, 255, 0);
 }
 #footer {
 	float: bottom;
 	position: relative;
+	clear: both;
 }
 <<<<<<< Updated upstream
 =======
