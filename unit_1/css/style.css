@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(255, 235, 222);
+	background-color: white;
 	color: black;
 	font-family: helvetica;
 	text-align: center;
@@ -10,24 +10,43 @@ img {
 }
 nav {
 	text-align: center;
-	font: helvetica;
-	padding: 0px 10px 0px 10px;
-	font-family: "Slabo 27px", serif;
+	padding: 0px 20px 0px 20px;
+	font-family:"Cinzel", serif;
 	font-size: 40px;
-	color: ;
+	color: rgb(255, 227, 177);
+	position: relative;
+	bottom: 53px;
+	float: center;
+	text-decoration: none;
+	height: 0;
+}
+.navitem {
+	padding: 0px 10px;
+}
+a {
+	text-decoration: none;
+	text-align: center;
+}
+h2 {
+	font-family:"Cinzel", serif;
 }
 p {
 	  color: black;
+	  font-family:"Cinzel", serif;
 }
-.container {
-	width: 33%;
+.column .featured {
+
+}
+.column {
+	width: 31%;
 	float: left;
 	margin: auto;
 	font-family: "Slabo 27px", serif;
 	background: white;
-  	background: linear-gradient(bottom, rgba(255, 205, 239, .5), rgba(255, 255, 255, .6));
-  	background: -webkit-linear-gradient(bottom, rgba(255, 205, 239, .5), rgba(255, 255, 255, .6));;
-  	background: -moz-linear-gradient(bottom, rgba(255, 205, 239, .5), rgba(255, 255, 255, .6));;
+	margin: 2px;
+    height: 200px;
+    border-left: 1px black solid;
+    padding: 10px;
 }
 #featured {
 	background-color: rgba(255, 255, 255, 0);
