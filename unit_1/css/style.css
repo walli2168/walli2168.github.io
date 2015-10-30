@@ -33,9 +33,7 @@ h2 {
 p {
 	  color: black;
 	  font-family:"Cinzel", serif;
-}
-.column .featured {
-
+	  font-weight: 5px;
 }
 .column {
 	width: 31%;
@@ -50,6 +48,16 @@ p {
 }
 #featured {
 	background-color: rgba(255, 255, 255, 0);
+}
+.rings {
+	height: 200px;
+	width: 250px;
+	position: relative;
+	left: -580px;
+	top: 30px;
+}
+.subfeature {
+	text-align: top;
 }
 #footer {
 	float: bottom;
