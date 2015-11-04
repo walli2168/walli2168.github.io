@@ -4,6 +4,10 @@ body {
 	font-family: helvetica;
 	text-align: center;
 }
+.header-image
+{
+	background-size: cover;
+}
 img {
 	opacity: 0.65;
 	width: 100%;
