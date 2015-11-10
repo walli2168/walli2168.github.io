@@ -1,13 +1,12 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
+	background-image: url("http://i.imgur.com/dHgJAJK.jpg");
+	background-repeat: no-repeat;
+	background-size: 80%;
 	background-color: white;
 	color: black;
 	font-family: helvetica;
 	text-align: center;
-}
-.header-image
-{
-	background-size: cover;
 }
 img {
 	opacity: 0.65;
@@ -39,6 +38,30 @@ p {
 	  color: black;
 	  font-family:"Cinzel", serif;
 	  font-weight: 5px;
+}
+.row {	
+	margin: 46em 0em 5em 0em;
+}
+.feature-one {
+	float: left;
+}
+.port-paragraph {
+	margin-bottom: 3em;
+}
+.champagne {
+	width: 25%;
+	margin-right: 1.5em;
+	float: left;
+}
+.feature-two {
+	float: right;
+	clear: both;
+}
+.flowers{
+	float: right;
+	width: 25%;
+	margin-left: 1.5em;
+	clear: both;
 }
 .column {
 	width: 31%;
