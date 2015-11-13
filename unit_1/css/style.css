@@ -4,7 +4,7 @@ body {
 	height: 300px;
 	float: top;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: 50% 0%;
 	margin-right: 0 auto;
 	background-size: 100%;
 	background-color: white;
@@ -19,7 +19,7 @@ img {
 }
 #main-nav {
 	text-align: center;
-	padding: 20em 20px 0px 20px;
+	padding: 25em 20px 0px 20px;
 	font-family:"helvetica", serif;
 	font-size: 40px;
 	color: white;
@@ -41,7 +41,7 @@ a, #main-nav {
 	color: white;
 }
 #main-nav {
-	margin-top: 17.5em;
+	margin-top: 22em;
 }
 h2 {
 	color: black;
@@ -55,7 +55,7 @@ p {
 	  font-weight: 5px;
 }
 .row {	
-	margin: 53em 0em 5em 0em;
+	margin: 2em 0em 5em 0em;
 
 }
 .feature-one {
