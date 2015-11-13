@@ -1,17 +1,18 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-image: url("http://i.imgur.com/dHgJAJK.jpg");
 	height: 300px;
 	float: top;
-	background-repeat: no-repeat;
 	background-position: 50% 0%;
-	margin-right: 0 auto;
-	background-size: 100%;
 	background-color: white;
 	color: black;
 	font-family: helvetica;
 	text-align: center;
 	width: 100%;
+}
+header {
+	background-image: url("http://i.imgur.com/dHgJAJK.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 h1 {
 	padding-top: 3em;
@@ -35,14 +36,11 @@ img {
 	height: 0;
 
 }
-.navitem {
-	padding: 0px 10px;
-}
 a, #main-nav {
 	text-decoration: none;
 	text-align: center;
 	font-family: sans-serif;
-	padding-top: 1.5em;
+	padding-bottom: 1.5em;
 	color: white;
 }
 #main-nav {
@@ -59,7 +57,7 @@ h2 {
 	padding-bottom: 0.5em;
 }
 p {
-	  color: black;
+	  color: gray;
 	  font-family:"Cinzel", serif;
 	  font-weight: 5px;
 }
@@ -109,7 +107,7 @@ p {
 	float: left;
 	margin: auto;
 	font-family: "Slabo 27px", serif;
-	color: white;
+	color: gray;
 	margin: 2px;
     height: 200px;
     border-left: 1px black solid;
