@@ -143,16 +143,9 @@ p {
 }
 #footer {
 	float: bottom;
+	font-size: .75em;
 	position: relative;
 	clear: both;
 }
-<<<<<<< Updated upstream
-=======
-h1, h2, p {
-	color: orange;
-}
-#footer {
-	font-size: .75em;
-	color: gray;
-}
->>>>>>> Stashed changes
+
+
