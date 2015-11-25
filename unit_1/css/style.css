@@ -72,6 +72,7 @@ p {
 .row {	
 	margin: 0em 0em 5em 0em;
 
+
 }
 .feature-one {
 	float: left;
@@ -116,7 +117,7 @@ p {
 
 }
 .column {
-	width: 31%;
+	width: 32.33%;
 	float: left;
 	margin: auto;
 	font-family: "Slabo 27px", serif;
@@ -140,6 +141,38 @@ p {
 	text-align: top;
 	margin-top: 1em;
 	padding-top: 1em;
+}
+.team-photos {
+	width: 300px;
+	float: left;
+	clear: both;
+}
+.team-header {
+	display: block;
+	float: left;
+	margin-top: 4em;
+}
+.team-text {
+	display: block;
+	float: left;
+	clear: both;
+	margin-top: .5em;
+}
+.event-gallery {
+	float: left;
+	padding: 1em .5em;
+	width: 15%;
+}
+.main-event {
+	width: 60%;
+	float: left;
+	margin: 30em 15em 1em 15em;
+}
+.event-section {
+	margin: 30em 8em;
+	clear: both;
+	text-align: center;
+	position: 50%;
 }
 #footer {
 	float: bottom;
